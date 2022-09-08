@@ -1367,9 +1367,10 @@ nav.main .midmenu {
 
 .list-category {
   /* background-color: yellowgreen; */
-  width: 15rem;
+  width: 14.5rem;
   padding: 1rem 1rem 1rem 0 !important;
   margin-right: 1rem;
+  margin-bottom: 1rem;
   list-style: none;
   /* border: 1px solid blue; */
 }
