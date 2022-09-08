@@ -51,7 +51,7 @@ $(document).ready(function() {
     margin: 5,
     loop: true,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 4000,
     autoplayHoverPause: true,
     nav: true,
     navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],

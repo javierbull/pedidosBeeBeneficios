@@ -26,16 +26,18 @@
   --bgGray: #F8F8F8;
   --bgAtWorkLight: #403E37;
   --bgTagPrimary: #0040E4;
-  --bgTagSecondary: #FF5C00;
+  --bgTagSecondary: #D33212;
   --bgTagPromo: #5026A8;
   --bgTagPrime: #BF967A;
   --bgTagProductoExclusivo: #FF2C6B;
+  --bgTagCine: #CF0477;
   --bgFacebook: #135ED2;
   --bgGoogle: #4E94FF;
   --bgEntrada: #040404;
   --bgActivacion-dis: #605CFF;
-  --bgActivacion-prox: #84B559;
+  --bgActivacion-prox: #4FC1E9;
   --bgActivacion-no: #FF7878;
+  --bgActivacion-promo: #00AD7C;
   --card-line-height: 1.2em;
   --card-padding: 1em;
   --card-radius: .5rem;
@@ -459,6 +461,22 @@ input[type=number] {
   background-color: var(--red);
 }
 
+.bg-tag-activacion {
+  background-color: var(--bgActivacion-dis);
+}
+
+.bg-tag-promocion {
+  background-color: var(--green);
+}
+
+.bg-tag-liquidacion {
+  background-color: var(--red);
+}
+
+.bg-tag-cine {
+  background-color: var(--bgTagCine);
+}
+
 /* FIN BACKGROUNDS */
 /* TEXT COLORS */
 .text-white {
@@ -564,7 +582,6 @@ input[type=number] {
 
 /* background carousel */
 .carousel-login {
-  /* background-color: greenyellow; */
   position: fixed;
 }
 
@@ -1204,6 +1221,7 @@ footer {
 }
 
 /* FIN NAVBAR MOBILE */
+
 /* MENU CATEGORIAS */
 /* MEGA MENU */
 /* Navigation Sub
@@ -1424,9 +1442,74 @@ nav.main .midmenu {
 
 /* FIN PILL badge-bee DESKTOP */
 
+/* CATEGORIES ALL */
+.tabs-all-categories {
+  background-color: var(--jhon);
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0;
+}
 
+.tabs-all-categories li {
+  padding: .5rem  1.5rem;
+  margin-bottom: .5rem !important;
+}
+
+.tabs-all-categories li:last-child {
+  margin-bottom: 0 !important;
+}
+
+.tabs-all-categories li:hover {
+  background-color: var(--ringo);
+}
+
+.tabs-all-categories li:hover a {
+  color: var(--lonely) !important;
+}
+
+.tabs-all-categories li a {
+  color: var(--ringo);
+}
+
+.tabs-all-categories li a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+
+.tab-content-all-categories {
+  background-color: var(--lonely);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.tab-content-all-categories .tab-pane {
+  /* background-color: lavender; */
+}
+
+.header-tab-pane {
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.tab-pane-title {
+  /* background-color: salmon; */
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.body-tab-pane {
+  /* background-color: lightyellow; */
+}
+/* END CATEGORIES ALL */
 
 /* FIN MENÚ CATEGORIAS */
+
 
 /* BANNER CLIENT */
 .banner-client {
@@ -1474,6 +1557,10 @@ nav.main .midmenu {
 .carousel-item {
   width: 100vw;
   height: 345px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
 }
 
 .carousel-item .banner-carousel {
@@ -1552,6 +1639,28 @@ nav.main .midmenu {
 .bg-cp-gianmarco {
   background-image: url(../img/carousel/carousel-principal/cp-gianmarco.png);
 }
+
+.bg-cp-medidas {
+  background-image: url(../img/carousel/carousel-principal/pruebaDesktop.png);
+}
+
+.bg-cp-cineplanet {
+  background-image: url(../img/carousel/carousel-principal/cp-cineplanet.png);
+}
+
+.bg-cp-montalvoForMen {
+  background-image: url(../img/carousel/carousel-principal/cp-montalvoMen.png);
+}
+
+.bg-cp-montalvoSalonDama {
+  background-image: url(../img/carousel/carousel-principal/cp-montalvoDama.png);
+}
+
+.bg-cp-coneyPark {
+  background-image: url(../img/carousel/carousel-principal/cp-coneyPark.png);
+}
+
+
 /* END MAIN CAROUSEL */
 
 /* ACTIVACIONES HOME */
@@ -1571,6 +1680,10 @@ nav.main .midmenu {
 
 .activacion-no-disponible {
   background-color: var(--bgActivacion-no);
+}
+
+.activacion-promocional {
+  background-color: var(--bgActivacion-promo);
 }
 
 .content-activacion-home {
@@ -2086,6 +2199,12 @@ nav.main .midmenu {
   justify-content: space-between;
 }
 
+.wrap-type-price-card {
+  /* background-color: yellow; */
+  margin-top: auto;
+  margin-bottom: 1rem;
+}
+
 .content-type-price {
   display: flex;
   justify-content: space-between;
@@ -2098,9 +2217,12 @@ nav.main .midmenu {
 
 .regular-price-card {
   color: var(--grayText);
-  text-decoration: line-through;
   line-height: 1.2rem;
   margin-bottom: .25rem;
+}
+
+.text-through {
+  text-decoration: line-through;
 }
 
 .bee-price-card {
@@ -2113,6 +2235,16 @@ nav.main .midmenu {
 .activation-price-card {
   line-height: 1.2rem;
   color: var(--bgActivacion-dis);
+}
+
+.promocion-price-card {
+  line-height: 1.2rem;
+  color: var(--green);
+}
+
+.liquidacion-price-card {
+  line-height: 1.2rem;
+  color: var(--red);
 }
 
 
@@ -2145,6 +2277,7 @@ nav.main .midmenu {
   border-radius: 2px;
   display: inline-block;
   margin-bottom: .5rem;
+  color: var(--white);
 }
 
 .tag-card-product:last-child {
@@ -2260,15 +2393,15 @@ nav.main .midmenu {
 }
 
 /* FIN BTN FAVORITE */
-.limited-label {
-  background-color: var(--yellow);
+.promo-label {
   position: absolute;
   left: 0;
   top: 1rem;
   font-size: 12px;
   padding: 5px;
   border-radius: 0 4px 4px 0;
-  color: var(--black);
+  color: var(--white);
+  font-weight: 600;
 }
 
 .wrap-label-card {}
@@ -2601,7 +2734,7 @@ nav.main .midmenu {
 }
 
 .bg-banner-restaurantes {
-  background-image: url(../img/bg/banner_restaurantes.jpg);
+  background-image: url(../img/bg/bannersCategories/BAC-Restaurantes.png);
 }
 
 .title-banner {
@@ -2915,7 +3048,10 @@ nav.main .midmenu {
 .section-wrap-cards .row {
   margin-left: -.5rem;
   margin-right: -.5rem;
-  ;
+}
+
+.section-wrap-packs-cards {
+  margin-bottom: 2rem;
 }
 
 /* FIN SECTION WRAP CARDS CATEGORY */
@@ -3765,7 +3901,7 @@ nav.main .midmenu {
 
 /* BANNER ATWORK */
 .bg-banner-dulceria {
-  background-image: url(../img/bg/dulceria.png);
+  background-image: url(../img/bg/bannersCategories/cp_dulceria.png);
 }
 
 .bg-banner-cartelera {
@@ -3773,7 +3909,7 @@ nav.main .midmenu {
 }
 
 .bg-banner-boleteria {
-  background-image: url(../img/bg/boleteria.png);
+  background-image: url(../img/bg/bannersCategories/cp_boleteria.png);
 }
 
 .bg-banner-complejos {
@@ -3782,6 +3918,10 @@ nav.main .midmenu {
 
 .bg-banner-protocolos {
   background-image: url(../img/bg/protocolos.png);
+}
+
+.bg-banner-paks {
+  background-image: url(../img/bg/bannersCategories/cp_packs.png);
 }
 
 .text-banner-atWork {
@@ -3986,31 +4126,25 @@ iframe {
   /* background-color: yellow; */
   border-radius: 0;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--george);
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
   transition: all ease .3s;
 }
 
 .nav-pills-atwork .nav-link:hover {
-  color: var(--white);
-}
-
-.nav-pills-atwork .nav-link span {
-  font-weight: 400;
-  font-style: italic;
-  font-size: .75rem;
+  color: var(--ringo);
 }
 
 .nav-pills-atwork .nav-item:first-child {
-  margin-right: 5rem;
+  margin-right: 1rem;
 }
 
 .nav-pills-atwork .nav-link.active,
 .nav-pills-atwork .show>.nav-link {
-  color: var(--white);
-  background-color: var(--black);
+  color: var(--ringo);
+  background-color: var(--pepper);
   border-bottom: 4px solid var(--yellow);
 }
 
@@ -4063,17 +4197,39 @@ iframe {
   /* background-color: lightgreen; */
   display: flex;
   align-items: center;
-  margin-right: 2rem;
+}
+
+.content-precio-cantidad .wrap-precios-entradas {
+  text-align: right;
+}
+
+.content-precio-cantidad > div {
+  margin-right: 1rem;
+}
+
+.content-precio-cantidad .control-entradas .control-quantity {
+  /* background-color: yellow; */
+  width: 100%;
 }
 
 .item-entrada .precio-entrada {
   /* background-color: pink; */
   font-family: 'Inter', sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 700;
-  margin: 0 4rem;
-  width: 8rem;
   text-align: right;
+  white-space: nowrap;
+  color: var(--bgActivacion-dis);
+}
+
+.item-entrada .precio-entrada-regular {
+  /* background-color: pink; */
+  font-family: 'Inter', sans-serif;
+  font-size: 1.125rem;
+  text-align: right;
+  white-space: nowrap;
+  text-decoration: line-through;
+  color: var(--grayText);
 }
 
 /* FIN BOLETERÍA AT WORK */
@@ -4129,7 +4285,7 @@ iframe {
 
 .card-product .card-footer-dulceria {
   background-color: #fff;
-  height: 196px;
+  height: 192px;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -4139,6 +4295,7 @@ iframe {
 }
 
 .card-footer-dulceria .control-quantity {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -5594,6 +5751,105 @@ iframe {
 
 /* END TICKETS ATWOEK */
 
+/* PACKS ATWORK */
+
+#packsProvincia {
+  display: none;
+}
+
+.card-pack {
+  background-color: var(--lonely);
+  padding: 1.5rem;
+  border-radius: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-pack-img-desc {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+}
+
+.card-pack-content-img {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: .5rem;
+  min-width: 10rem;
+  min-height: 10rem;
+  max-width: 10rem;
+  max-height: 10rem;
+  margin-right: 1rem;
+}
+
+.card-pack-content-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.card-pack-product {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+
+.card-pack-product-desc {
+  margin-bottom: 1rem;
+  word-wrap: break-word;
+ }
+
+ .card-pack-product-validity {
+   font-size: .8rem;
+ }
+
+.card-pack-price-controls {
+  /* background-color: yellowgreen; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wrap-pack-price {
+  /* background-color: lightblue; */
+  margin-right: 1rem;
+}
+
+.wrap-pack-price {
+  font-family: 'Inter', sans-serif;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 1.125rem;
+}
+
+.wrap-pack-price .activation-price-card {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.wrap-controls-pack {
+  /* background-color: peru; */
+  display: flex;
+  align-items: center;
+}
+
+.wrap-controls-pack .control-quantity  {
+  min-width: 10rem;
+  max-width: 10rem;
+  margin-right: 1rem;
+}
+
+.wrap-controls-pack .btn-primario  {
+  min-width: 12rem;
+  max-width: 12rem;
+}
+
+/* END PACKS ATWORK */
+
 /* SECTION PRODUCTOS DESTACADOS */
 .grid-featured-product {
   display: grid;
@@ -5606,6 +5862,7 @@ iframe {
 }
 
 .featured-product-item {
+  /* background-color: pink; */
   border-radius: .5rem;
   overflow: hidden;
 }
@@ -5616,69 +5873,43 @@ iframe {
 }
 /* END SECTION PRODUCTOS DESTACADOS */
 
+/* UNSUBSCRIBE */
 
-/* CATEGORIES ALL */
-.tabs-all-categories {
-  background-color: var(--jhon);
+#confirm-unsubscribe {
+  display: none;
+}
+
+/* END UNSUBSCRIBE */
+
+/* LOADER */
+
+.loader {
   display: flex;
   flex-direction: column;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  padding-right: 0;
-}
-
-.tabs-all-categories li {
-  padding: .5rem  1.5rem;
-  margin-bottom: .5rem !important;
-}
-
-.tabs-all-categories li:last-child {
-  margin-bottom: 0 !important;
-}
-
-.tabs-all-categories li:hover {
-  background-color: var(--ringo);
-}
-
-.tabs-all-categories li:hover a {
-  color: var(--lonely) !important;
-}
-
-.tabs-all-categories li a {
-  color: var(--ringo);
-}
-
-.tabs-all-categories li a:hover {
-  text-decoration: none;
-  cursor: default;
-}
-
-.tab-content-all-categories {
-  background-color: var(--lonely);
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.tab-content-all-categories .tab-pane {
-  /* background-color: lavender; */
-}
-
-.header-tab-pane {
-  /* background-color: greenyellow; */
-  display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 1.5rem;
+  background-color: rgba(239, 240, 246, .9);
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1055;
+  display: none;
+  /* display: flex; */
 }
 
-.tab-pane-title {
-  /* background-color: salmon; */
+.loader img {
+  margin-bottom: 1rem;
+  height: 8rem;
+  width: 8rem;
+}
+
+.loader span {
   font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0;
+  text-align: center;
 }
-
-.body-tab-pane {
-  /* background-color: lightyellow; */
-}
-/* END CATEGORIES ALL */
+/* END LOADER */

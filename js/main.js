@@ -248,6 +248,27 @@ $(document).ready(function() {
   });
   // END ACCORDION FILTER
 
+  // TIEMPO CAROUSEL PRINCIPAL HOME
+  $('.main-carousel').carousel({
+    interval: 4000
+  })
+  // END TIEMPO CAROUSEL PRINCIPAL HOME
+
+  // Load modal
+  // $(function() {
+  //   $("#modal-flyer-fe").modal();
+  // });
+  // End load modal
+
+
+ // CITY SELECTOR PACKS
+  $(function() {
+    $('#citySelectorPacks').change(function() {
+      $('.section-wrap-packs-cards').hide();
+      $('#' + $(this).val()).show();
+    });
+  });
+  // END CITY SELECTOR PACKS
 
   // TABS HOVER
   $('.nav-tabs-hover > li').mouseover(function() {
@@ -258,14 +279,5 @@ $(document).ready(function() {
   });
 
   // END TABS HOVER
-
-
-  // Load modal
-  // $(function() {
-  //   $("#modal-flyer-fe").modal();
-  // });
-  // End load modal
-
-
 
 });

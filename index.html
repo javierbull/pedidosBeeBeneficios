@@ -1090,42 +1090,22 @@
 		</div>
 		<!-- END BANNER CLIENT -->
 
-		<!-- TEXT BANNER -->
-		<!-- <div class="section banner banner-categoria bg-banner-home">
-			<div class="container">
-				<div class="row">
-					<div class="text-banner text-white- col-lg-5 col-md-6">
-						<H2 class="big-title">
-							¡Bienvenido team Colmena!
-						</H2>
-						<p class="message-banner">
-							A partir de ahora podrás disfrutar de grandes
-							beneficios por ser parte de nuestro equipo.
-						</p>
-
-						<a href="#" class="btn btn-primario btn-large">
-							Descubre cómo funciona
-						</a>
-					</div>
-
-					<div class="content-logo-empresa-banner col-lg-6 col-md-5 d-none">
-						<img src="img/logos/logos_empresas/colmena_cuadrado.png" class="logo-empresa-banner" alt="Colmena">
-					</div>
-				</div>
-			</div>
-		</div> -->
-		<!-- FIN TEXT BANNER -->
-
 		<!-- MAIN CAROUSEL  -->
 		<div id="mainCarousel" class="carousel main-carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
 				<li data-target="#mainCarousel" data-slide-to="1"></li>
+				<li data-target="#mainCarousel" data-slide-to="2"></li>
+				<li data-target="#mainCarousel" data-slide-to="3"></li>
 			</ol>
 			<div class="carousel-inner">
-				<a href="producto_teatro.html" class="carousel-item bg-cp-gianmarco active">
+				<a href="producto_teatro.html" class="carousel-item bg-cp-coneyPark active">
 				</a>
-				<a href="producto_teatro.html" class="carousel-item bg-cp-rockys">
+				<a href="producto_teatro.html" class="carousel-item bg-cp-montalvoSalonDama">
+				</a>
+				<a href="producto_teatro.html" class="carousel-item bg-cp-montalvoForMen">
+				</a>
+				<a href="producto_teatro.html" class="carousel-item bg-cp-cineplanet">
 				</a>
 			</div>
 			<a class="carousel-control-prev carousel-control" href="#mainCarousel" role="button" data-slide="prev">
@@ -1148,11 +1128,11 @@
 					<div class="col-lg-8">
 						<div class="content-activacion-home">
 							<div class="content-img-activacion-home">
-								<img src="img/icons/activacion_disponible.svg"  alt="Activación disponible">
+								<img src="img/icons/activacionDisponible.svg"  alt="Activación disponible">
 							</div>
 							<div class="content-text-activacion-home">
 								<h2 class="title-activacion-home">
-									¡Estás en tus días de activación! 😊
+									¡Estás en tus días de activación!
 								</h2>
 								<p class="desc-activacion-home">
 									Recuerda que durante tus días de activación accederás a mayores descuentos
@@ -1178,11 +1158,11 @@
 					<div class="col-lg-8">
 						<div class="content-activacion-home">
 							<div class="content-img-activacion-home">
-								<img src="img/icons/activacion_proxima.svg" alt="Activación próxima">
+								<img src="img/icons/activacionProxima.svg" alt="Activación próxima">
 							</div>
 							<div class="content-text-activacion-home">
 								<h2 class="title-activacion-home">
-									¡Falta poco para tus días de activación! 😉
+									¡Falta poco para tus días de activación!
 								</h2>
 								<p class="desc-activacion-home">
 									Recuerda que durante tus días de activación accederás a mayores descuentos
@@ -1208,15 +1188,38 @@
 					<div class="col-lg-11">
 						<div class="content-activacion-home">
 							<div class="content-img-activacion-home">
-								<img src="img/icons/activacion_no_disponible.svg" alt="Activación no disponible">
+								<img src="img/icons/activacionNodisponible.svg" alt="Activación no disponible">
 							</div>
 							<div class="content-text-activacion-home">
 								<h2 class="title-activacion-home">
-									¡No tienes activaciones programadas! ☹
+									¡No tienes activaciones programadas!
 								</h2>
 								<p class="desc-activacion-home mb-0">
 									Recuerda que durante tus días de activación accederás a mayores descuentos <br>
-									Contacta a tu área de RRHH para gestionar tus próximas fechas 😉
+									Contacta a tu área de RRHH para gestionar tus próximas fechas
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container activacion-home activacion-promocional d-none" id="activacion-proxima">
+				<div class="row d-flex justify-content-center">
+					<div class="col-lg-11">
+						<div class="content-activacion-home">
+							<div class="content-img-activacion-home">
+								<img src="img/icons/activacionProxima.svg" alt="Activación próxima">
+							</div>
+							<div class="content-text-activacion-home">
+								<h2 class="title-activacion-home">
+									¡Te encuentras en días promocionales!
+								</h2>
+								<p class="desc-activacion-home">
+									Recuerda que durante los días promocionales accederás a mayores descuentos
+								</p>
+								<p class="activacion-fecha-home">
+									del 26 al 31 de enero
 								</p>
 							</div>
 						</div>
@@ -1226,85 +1229,9 @@
 		</section>
 		<!-- END ACTIVACIONES HOME -->
 
-		<!-- BLOQUE CAROUSEL SECUNDARIO -->
-
-		<!-- <div class="section">
-			<div class="container">
-				<div class="carousel-wrap">
-					<div class="owl-carousel owl-theme owl-carousel-secundario">
-
-						<div class="item" data-merge="1">
-							<img src="img/carousel/carousel-secundario/banner-sec-item1.jpg" class="render-img" alt="">
-						</div>
-
-						<div class="item" data-merge="1">
-							<img src="img/carousel/carousel-secundario/banner-sec-item2.jpg" class="render-img" alt="">
-						</div>
-
-						<div class="item" data-merge="1">
-							<img src="img/carousel/carousel-secundario/banner-sec-item3.jpg" class="render-img" alt="">
-						</div>
-
-						<div class="item" data-merge="1">
-							<img src="img/carousel/carousel-secundario/banner-sec-item4.jpg" class="render-img" alt="">
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<!-- FIN BLOQUE CAROUSEL SECUNDARIO -->
-
 		<!-- SECTION OFFERS -->
 		<section class="section section-offers">
 			<div class="container">
-
-				<!-- <div class="header-section-offers">
-					<h2 class="title-section">
-						¡CYBERWOW!
-					</h2>
-
-					<div class="content-countdown">
-						<div class="info-countdown">
-							<span>¡No los dejes ir!</span> Queda poco tiempo:
-						</div>
-						<div class="countdown" id="js-countdown">
-
-							<div class="countdown__item">
-								<div class="countdown__timer js-countdown-hours" aria-labelledby="hour-countdown">
-
-								</div>
-
-								<div class="countdown__label" id="hour-countdown">Horas</div>
-							</div>
-
-							<div class="timer-points">
-								:
-							</div>
-
-							<div class="countdown__item">
-								<div class="countdown__timer js-countdown-minutes" aria-labelledby="minute-countdown">
-
-								</div>
-
-								<div class="countdown__label" id="minute-countdown">Minutos</div>
-							</div>
-
-							<div class="timer-points">
-								:
-							</div>
-
-							<div class="countdown__item">
-								<div class="countdown__timer js-countdown-seconds" aria-labelledby="second-countdown">
-
-								</div>
-
-								<div class="countdown__label" id="second-countdown">Segundos</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
 
 				<div class="row">
 					<div class="col-12">
@@ -1330,12 +1257,12 @@
 										<div class="wrap-card-body-footer flex-h-auto">
 											<div class="card-body">
 												<div class="content-card-img">
-													<div class="limited-label d-none-">
-														🔥 por tiempo limitado
+													<div class="promo-label bg-tag-activacion  d-none">
+														Solo con activación
 													</div>
-													<img src="img/products/cards/bgCardKA.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
+													<img src="img/products/cards/sanFernando/pavo.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
 													<div class="content-img-logo">
-														<img src="img/products/cards/colmena.png" class="card-img-logo" alt="Logotipo Racing Dakart Perú">
+														<img src="img/products/cards/logoSF.png" class="card-img-logo" alt="Logotipo Racing Dakart Perú">
 													</div>
 												</div>
 												<div class="description-card">
@@ -1343,21 +1270,20 @@
 														<div class="description-content-top">
 															<div class="content-tags-card-product">
 																<span class="tag-card-product bg-tagPrimary">
-																	Cyberwow
+																	Preventa
 																</span>
 																<span class="tag-card-product bg-tagSecondary">
 																	30% dscto
 																</span>
 															</div>
 															<h5 class="brand-card">
-																Racing Dakart Perú
+																San Fernando
 															</h5>
 															<h4 class="name-product-card">
-																Kartódromo de Asia
-																Kartódromo de Asia
+																Preventa - Pavo Digital
 															</h4>
 															<p class="card-text line-clamp line-clamp-2">
-																Adrenalina para todas las edades en los circuitos más completos.
+																Vale de Pavo Digital 7K
 															</p>
 															<div class="stock-label d-none">
 																🔥 solo quedan 10
@@ -1368,22 +1294,22 @@
 											</div>
 											<div class="card-footer border-none">
 												<div class="wrap-type-price-card">
-													<div class="content-type-price regular-price-card number-text-semiBold">
-														<div class="price">s/ 22.90</div>
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
+														<div class="price">s/ 129.50</div>
 														<div class="type-price">
 															Precio regular
 														</div>
 													</div>
-													<div class="content-type-price bee-price-card number-text-extraBold">
-														<div class="price">s/ 18.00</div>
+													<div class="content-type-price bee-price-card number-text-extraBold text-through">
+														<div class="price">s/ 111.50</div>
 														<div class="type-price">
-															Precio bee
+															Precio sin activación
 														</div>
 													</div>
 													<div class="content-type-price activation-price-card number-text-extraBold">
-														<div class="price">s/ 14.00</div>
+														<div class="price">s/ 98.70</div>
 														<div class="type-price">
-															Precio activación
+															Precio con activación
 														</div>
 													</div>
 												</div>
@@ -1409,8 +1335,164 @@
 										<div class="wrap-card-body-footer flex-h-auto">
 											<div class="card-body">
 												<div class="content-card-img">
-													<div class="limited-label d-none">
-														🔥 por tiempo limitado
+													<div class="promo-label bg-tag-promocion  d-none-">
+														¡Super promo!
+													</div>
+													<img src="img/products/cards/bgCardKA.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
+													<div class="content-img-logo">
+														<img src="img/products/cards/colmena.png" class="card-img-logo" alt="Logotipo Racing Dakart Perú">
+													</div>
+												</div>
+												<div class="description-card">
+													<div class="description-content">
+														<div class="description-content-top">
+															<div class="content-tags-card-product">
+																<span class="tag-card-product bg-tagPrimary d-none">
+																	Cyberwow
+																</span>
+																<span class="tag-card-product bg-tagSecondary">
+																	30% dscto
+																</span>
+															</div>
+															<h5 class="brand-card">
+																Racing Dakart Perú
+															</h5>
+															<h4 class="name-product-card">
+																Kartódromo de Asia
+															</h4>
+															<p class="card-text line-clamp line-clamp-2">
+																Adrenalina para todas las edades en los circuitos más completos.
+															</p>
+															<div class="stock-label d-none">
+																🔥 solo quedan 10
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="card-footer border-none">
+												<div class="wrap-type-price-card">
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
+														<div class="price">s/ 22.90</div>
+														<div class="type-price">
+															Precio regular
+														</div>
+													</div>
+													<div class="content-type-price bee-price-card number-text-extraBold text-through d-none">
+														<div class="price">s/ 18.00</div>
+														<div class="type-price">
+															Precio sin activación
+														</div>
+													</div>
+													<div class="content-type-price promocion-price-card number-text-extraBold">
+														<div class="price">s/ 14.00</div>
+														<div class="type-price">
+															Precio de promoción
+														</div>
+													</div>
+												</div>
+
+												<a href="producto.html" class="btn btn-primario btn-block">
+													Comprar
+												</a>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="item" data-merge="1">
+							<div class="content-card-carousel flex-h-auto">
+								<div class="card card-product card-product-carousel flex-h-auto">
+									<div class="wrap-favorite">
+										<i class="far fa-heart favorite">
+										</i>
+									</div>
+									<a href="producto.html" class="flex-h-auto">
+										<div class="wrap-card-body-footer flex-h-auto">
+											<div class="card-body">
+												<div class="content-card-img">
+													<div class="promo-label bg-tag-liquidacion d-none-">
+														¡Liquidación!
+													</div>
+													<img src="img/products/cards/bgCardKA.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
+													<div class="content-img-logo">
+														<img src="img/products/cards/colmena.png" class="card-img-logo" alt="Logotipo Racing Dakart Perú">
+													</div>
+												</div>
+												<div class="description-card">
+													<div class="description-content">
+														<div class="description-content-top">
+															<div class="content-tags-card-product">
+																<span class="tag-card-product bg-tagPrimary d-none">
+																	Cyberwow
+																</span>
+																<span class="tag-card-product bg-tagSecondary">
+																	30% dscto
+																</span>
+															</div>
+															<h5 class="brand-card">
+																Racing Dakart Perú
+															</h5>
+															<h4 class="name-product-card">
+																Kartódromo de Asia
+															</h4>
+															<p class="card-text line-clamp line-clamp-2">
+																Adrenalina para todas las edades en los circuitos más completos.
+															</p>
+															<div class="stock-label d-none">
+																🔥 solo quedan 10
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="card-footer border-none">
+												<div class="wrap-type-price-card">
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
+														<div class="price">s/ 22.90</div>
+														<div class="type-price">
+															Precio regular
+														</div>
+													</div>
+													<div class="content-type-price bee-price-card number-text-extraBold text-through d-none">
+														<div class="price">s/ 18.00</div>
+														<div class="type-price">
+															Precio sin activación
+														</div>
+													</div>
+													<div class="content-type-price liquidacion-price-card number-text-extraBold">
+														<div class="price">s/ 14.00</div>
+														<div class="type-price">
+															Precio de liquidación
+														</div>
+													</div>
+												</div>
+
+												<a href="producto.html" class="btn btn-primario btn-block">
+													Comprar
+												</a>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="item" data-merge="1">
+							<div class="content-card-carousel flex-h-auto">
+								<div class="card card-product card-product-carousel flex-h-auto">
+									<div class="wrap-favorite">
+										<i class="far fa-heart favorite">
+										</i>
+									</div>
+									<a href="producto.html" class="flex-h-auto">
+										<div class="wrap-card-body-footer flex-h-auto">
+											<div class="card-body">
+												<div class="content-card-img">
+													<div class="promo-label d-none">
+														Solo con activación
 													</div>
 													<img src="img/products/cards/bgCardWong.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
 													<div class="content-img-logo">
@@ -1421,7 +1503,7 @@
 													<div class="description-content">
 														<div class="description-content-top">
 															<div class="content-tags-card-product">
-																<span class="tag-card-product bg-tagPrimary">
+																<span class="tag-card-product bg-tagPrimary d-none">
 																	Cyberwow
 																</span>
 																<span class="tag-card-product bg-tagSecondary">
@@ -1447,7 +1529,7 @@
 											</div>
 											<div class="card-footer border-none">
 												<div class="wrap-type-price-card">
-													<div class="content-type-price regular-price-card number-text-semiBold">
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
 														<div class="price">s/ 22.90</div>
 														<div class="type-price">
 															Precio regular
@@ -1456,13 +1538,13 @@
 													<div class="content-type-price bee-price-card number-text-extraBold">
 														<div class="price">s/ 18.00</div>
 														<div class="type-price">
-															Precio bee
+															Precio sin activación
 														</div>
 													</div>
-													<div class="content-type-price activation-price-card number-text-extraBold">
+													<div class="content-type-price activation-price-card number-text-extraBold text-through">
 														<div class="price">s/ 14.00</div>
 														<div class="type-price">
-															Precio activación
+															Precio con activación
 														</div>
 													</div>
 												</div>
@@ -1488,8 +1570,8 @@
 										<div class="wrap-card-body-footer flex-h-auto">
 											<div class="card-body">
 												<div class="content-card-img">
-													<div class="limited-label d-none">
-														🔥 por tiempo limitado
+													<div class="promo-label d-none">
+														Solo con activación
 													</div>
 													<img src="img/products/cards/bgCardDonofrio.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
 													<div class="content-img-logo">
@@ -1500,7 +1582,7 @@
 													<div class="description-content">
 														<div class="description-content-top">
 															<div class="content-tags-card-product">
-																<span class="tag-card-product bg-tagPrimary">
+																<span class="tag-card-product bg-tagPrimary d-none">
 																	Cyberwow
 																</span>
 																<span class="tag-card-product bg-tagSecondary">
@@ -1526,22 +1608,22 @@
 											</div>
 											<div class="card-footer border-none">
 												<div class="wrap-type-price-card">
-													<div class="content-type-price regular-price-card number-text-semiBold">
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
 														<div class="price">s/ 22.90</div>
 														<div class="type-price">
 															Precio regular
 														</div>
 													</div>
-													<div class="content-type-price bee-price-card number-text-extraBold">
+													<div class="content-type-price bee-price-card number-text-extraBold text-through">
 														<div class="price">s/ 18.00</div>
 														<div class="type-price">
-															Precio bee
+															Precio sin activación
 														</div>
 													</div>
 													<div class="content-type-price activation-price-card number-text-extraBold">
 														<div class="price">s/ 14.00</div>
 														<div class="type-price">
-															Precio activación
+															Precio con activación
 														</div>
 													</div>
 												</div>
@@ -1567,8 +1649,8 @@
 										<div class="wrap-card-body-footer flex-h-auto">
 											<div class="card-body">
 												<div class="content-card-img">
-													<div class="limited-label d-none">
-														🔥 por tiempo limitado
+													<div class="promo-label d-none">
+														Solo con activación
 													</div>
 													<img src="img/products/cards/bgCardLGB.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
 													<div class="content-img-logo">
@@ -1579,7 +1661,7 @@
 													<div class="description-content">
 														<div class="description-content-top">
 															<div class="content-tags-card-product">
-																<span class="tag-card-product bg-tagPrimary">
+																<span class="tag-card-product bg-tagPrimary d-none">
 																	Cyberwow
 																</span>
 																<span class="tag-card-product bg-tagSecondary">
@@ -1605,22 +1687,22 @@
 											</div>
 											<div class="card-footer border-none">
 												<div class="wrap-type-price-card">
-													<div class="content-type-price regular-price-card number-text-semiBold">
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
 														<div class="price">s/ 22.90</div>
 														<div class="type-price">
 															Precio regular
 														</div>
 													</div>
-													<div class="content-type-price bee-price-card number-text-extraBold">
+													<div class="content-type-price bee-price-card number-text-extraBold text-through">
 														<div class="price">s/ 18.00</div>
 														<div class="type-price">
-															Precio bee
+															Precio sin activación
 														</div>
 													</div>
-													<div class="content-type-price activation-price-card number-text-extraBold">
+													<div class="content-type-price activation-price-card number-text-extraBold ">
 														<div class="price">s/ 14.00</div>
 														<div class="type-price">
-															Precio activación
+															Precio con activación
 														</div>
 													</div>
 												</div>
@@ -1646,8 +1728,8 @@
 										<div class="wrap-card-body-footer flex-h-auto">
 											<div class="card-body">
 												<div class="content-card-img">
-													<div class="limited-label d-none">
-														🔥 por tiempo limitado
+													<div class="promo-label d-none">
+														Solo con activación
 													</div>
 													<img src="img/products/cards/starbucks.png" class="card-img-top img-fluid" alt="Coca Cola Pack">
 													<div class="content-img-logo">
@@ -1658,7 +1740,7 @@
 													<div class="description-content">
 														<div class="description-content-top">
 															<div class="content-tags-card-product">
-																<span class="tag-card-product bg-tagPrimary">
+																<span class="tag-card-product bg-tagPrimary d-none">
 																	Cyberwow
 																</span>
 																<span class="tag-card-product bg-tagSecondary">
@@ -1683,22 +1765,22 @@
 											</div>
 											<div class="card-footer border-none">
 												<div class="wrap-type-price-card">
-													<div class="content-type-price regular-price-card number-text-semiBold">
+													<div class="content-type-price regular-price-card number-text-semiBold text-through">
 														<div class="price">s/ 22.90</div>
 														<div class="type-price">
 															Precio regular
 														</div>
 													</div>
-													<div class="content-type-price bee-price-card number-text-extraBold">
+													<div class="content-type-price bee-price-card number-text-extraBold text-through">
 														<div class="price">s/ 18.00</div>
 														<div class="type-price">
-															Precio bee
+															Precio sin activación
 														</div>
 													</div>
 													<div class="content-type-price activation-price-card number-text-extraBold">
 														<div class="price">s/ 14.00</div>
 														<div class="type-price">
-															Precio activación
+															Precio con activación
 														</div>
 													</div>
 												</div>
@@ -1736,19 +1818,19 @@
 				<div class="grid-featured-product">
 					<div class="featured-product-item card-shadow">
 						<a href="#">
-							<img src="img/products/destacados/pd-regalos.svg" alt="Regalos">
+							<img src="img/products/destacados/pd-restaurantes.png" class="render-img" alt="Restaurantes">
 						</a>
 					</div>
 
 					<div class="featured-product-item card-shadow">
 						<a href="#">
-							<img src="img/products/destacados/pd-restaurantes.svg" alt="Restaurantes">
+							<img src="img/products/destacados/pd-montalvoForMen.png" class="render-img" alt="Montalvo For Men">
 						</a>
 					</div>
 
 					<div class="featured-product-item card-shadow">
 						<a href="#">
-							<img src="img/products/destacados/pd-main.svg" alt="Restaurantes">
+							<img src="img/products/destacados/pd-deporte.png" class="render-img" alt="Deportes">
 						</a>
 					</div>
 
@@ -1771,6 +1853,21 @@
 				</div>
 
 				<div class="grid-container-categorias">
+					<div class="category-item">
+						<a href="#">
+							<div class="img-categories-container">
+								<img src="img/bg/categorias/cd-entretenimiento-1.png" alt="Entretenimiento">
+								<img src="img/bg/categorias/cd-entretenimiento-2.png" alt="Entretenimiento">
+								<img src="img/bg/categorias/cd-entretenimiento-3.png" alt="Entretenimiento">
+							</div>
+							<div class="category_name">
+								<p>
+									Entretenimiento
+								</p>
+							</div>
+						</a>
+					</div>
+
 					<div class="category-item">
 						<a href="#">
 							<div class="img-categories-container">
@@ -1804,13 +1901,13 @@
 					<div class="category-item">
 						<a href="#">
 							<div class="img-categories-container">
-								<img src="img/bg/categorias/regalos-1.png" alt="Regalos">
-								<img src="img/bg/categorias/regalos-2.png" alt="Regalos">
-								<img src="img/bg/categorias/regalos-3.png" alt="Regalos">
+								<img src="img/bg/categorias/montalvoDama-1.png" alt="Belleza Mujer">
+								<img src="img/bg/categorias/montalvoforMen-2.png" alt="Belleza Hombre">
+								<img src="img/bg/categorias/montalvoDama-3.png" alt="Belleza Mujer">
 							</div>
 							<div class="category_name">
 								<p>
-									Regalos
+									Belleza
 								</p>
 							</div>
 						</a>
@@ -1819,43 +1916,13 @@
 					<div class="category-item">
 						<a href="#">
 							<div class="img-categories-container">
-								<img src="img/bg/categorias/belleza-mujer-1.png" alt="Belleza Mujer">
-								<img src="img/bg/categorias/belleza-mujer-2.png" alt="Belleza Mujer">
-								<img src="img/bg/categorias/belleza-mujer-3.png" alt="Belleza Mujer">
+								<img src="img/bg/categorias/boxesYregalos-1.png" alt="Boxes y Regalos">
+								<img src="img/bg/categorias/boxesYregalos-2.png" alt="Boxes y Regalos">
+								<img src="img/bg/categorias/boxesYregalos-3.png" alt="Boxes y Regalos">
 							</div>
 							<div class="category_name">
 								<p>
-									Belleza Mujer
-								</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="category-item">
-						<a href="#">
-							<div class="img-categories-container">
-								<img src="img/bg/categorias/belleza-hombre-1.png" alt="Belleza Hombre">
-								<img src="img/bg/categorias/belleza-hombre-2.png" alt="Belleza Hombre">
-								<img src="img/bg/categorias/belleza-hombre-3.png" alt="Belleza Hombre">
-							</div>
-							<div class="category_name">
-								<p>
-									Belleza hombre
-								</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="category-item">
-						<a href="#">
-							<div class="img-categories-container">
-								<img src="img/bg/categorias/entretenimiento-1.png" alt="Entretenimiento">
-								<img src="img/bg/categorias/entretenimiento-2.png" alt="Entretenimiento">
-								<img src="img/bg/categorias/entretenimiento-3.png" alt="Entretenimiento">
-							</div>
-							<div class="category_name">
-								<p>
-									Entretenimiento
+									Boxes y Regalos
 								</p>
 							</div>
 						</a>
@@ -1871,6 +1938,21 @@
 							<div class="category_name">
 								<p>
 									Deportes
+								</p>
+							</div>
+						</a>
+					</div>
+
+					<div class="category-item">
+						<a href="#">
+							<div class="img-categories-container">
+								<img src="img/bg/categorias/educacion-1.png" alt="Educación">
+								<img src="img/bg/categorias/educacion-2.png" alt="Educación">
+								<img src="img/bg/categorias/educacion-3.png" alt="Educación">
+							</div>
+							<div class="category_name">
+								<p>
+									Educación
 								</p>
 							</div>
 						</a>
@@ -1897,49 +1979,67 @@
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-								<img src="img/carousel/carousel-brands/sormedic.png" class="render-img" alt="Sormedic">
+								<img src="img/carousel/carousel-brands/cineplanet.png" class="render-img" alt="Cineplanet">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-							  <img src="img/carousel/carousel-brands/molitalia.png" class="render-img" alt="Molitalia">
+							  <img src="img/carousel/carousel-brands/coneyPark.png" class="render-img" alt="Coney Park">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-								<img src="img/carousel/carousel-brands/rockys.png" class="render-img" alt="Rocky's">
+								<img src="img/carousel/carousel-brands/rokys.png" class="render-img" alt="Roky's">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-								<img src="img/carousel/carousel-brands/backus.png" class="render-img" alt="Backus">
+								<img src="img/carousel/carousel-brands/mammaTomato.png" class="render-img" alt="Mamma Tomato">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-								<img src="img/carousel/carousel-brands/mt.png" class="render-img" alt="Mamma Tomato">
+								<img src="img/carousel/carousel-brands/montalvo.png" class="render-img" alt="Maontalvo">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-								<img src="img/carousel/carousel-brands/fe.png" class="render-img" alt="La Fina Endorfina">
+								<img src="img/carousel/carousel-brands/montalvoForMen.png" class="render-img" alt="Montalvo For Men">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
-								<img src="img/carousel/carousel-brands/ec.png" class="render-img" alt="Entrenamiento certero">
+								<img src="img/carousel/carousel-brands/laFinaEndorfina.png" class="render-img" alt="La Fina Endorfina">
+							</a>
+						</div>
+
+						<div class="item" data-merge="1">
+							<a href="papa_jhons.html">
+								<img src="img/carousel/carousel-brands/nathalieBird.png" class="render-img" alt="Nathalie Bird">
+							</a>
+						</div>
+
+						<div class="item" data-merge="1">
+							<a href="papa_jhons.html">
+								<img src="img/carousel/carousel-brands/madGadgets.png" class="render-img" alt="Mad Gadgets">
 							</a>
 						</div>
 
 						<div class="item" data-merge="1">
 							<a href="papa_jhons.html">
 								<img src="img/carousel/carousel-brands/berlitz.png" class="render-img" alt="Berlitz">
+							</a>
+						</div>
+
+						<div class="item" data-merge="1">
+							<a href="papa_jhons.html">
+								<img src="img/carousel/carousel-brands/iceSchool.png" class="render-img" alt="Ice School">
 							</a>
 						</div>
 
@@ -2005,15 +2105,16 @@
 								<h2>¿Tienes alguna duda?</h2>
 							</li>
 							<li class="list-group-item">
-								Llámanos al <br>
-								992 192 643 /
-								973 249 489 <br>
-								Lunes a Viernes: 9:00 am - 6:00 pm <br>
-								Sábados: 9:00 am - 1:00 pm
+								Escríbenos al<br>
+								whatsapp: 992 192 643<br>
+								Correo: hola@bee.com.pe<br>
 							</li>
 							<li class="list-group-item">
-								o escríbenos a <br>
-								hola@bee.com.pe
+								o llámanos al<br>
+								(+51)01 4949335
+							</li>
+							<li class="list-group-item">
+								Lunes a Viernes: 9:00 am - 6:00 pm
 							</li>
 						</ul>
 					</div>

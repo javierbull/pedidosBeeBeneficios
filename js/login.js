@@ -31,6 +31,13 @@ $(document).ready(function(){
  });
  // FIN SHOW-HIDE STEP FORM
 
+ // UNSUBSCRIBE
+ $("#unsubscribe-btn").click(function() {
+   $("#form-unsubscribe").hide();
+   $("#confirm-unsubscribe").show();
+ });
+ // END UNSUBSCRIBE
+
 
 
 });
