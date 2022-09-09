@@ -5947,4 +5947,26 @@ iframe {
   justify-content: flex-end;
   display: none;
 }
+
+.list-radio-medioDePago {
+  list-style: none;
+}
+
+.list-radio-medioDePago .form-check input {
+  position: absolute;
+}
+
+.list-group-item-radio {
+  background-color: lightgreen;
+  width: 100%;
+}
+
+.form-check-label {
+  background-color: lavender;
+  width: 100%;
+  cursor: pointer;
+  padding: 1rem;
+  border-bottom: 1px solid blue;
+}
+
 /*   END MEDIO DE PAGO PEDIDOS*/
