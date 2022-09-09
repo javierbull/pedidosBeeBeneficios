@@ -1275,6 +1275,7 @@ nav.main .megamenu-dropdown {
   border-radius: 0 0 .5rem .5rem;
   border: solid 1px var(--border);
   border-top: 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
 }
 
 .buscador-desktop {
@@ -1386,7 +1387,7 @@ nav.main .midmenu {
 
 .list-category {
   background-color: yellowgreen;
-  width: 14.5rem;
+  width: 13.5rem;
   padding: 1rem 1rem 1rem 0 !important;
   margin-right: 1rem;
   margin-bottom: 1rem;
