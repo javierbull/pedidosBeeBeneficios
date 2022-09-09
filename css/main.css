@@ -5950,6 +5950,9 @@ iframe {
 
 .list-radio-medioDePago {
   list-style: none;
+  border: 1px solid var(--border);
+  border-radius: .5rem;
+  overflow: hidden;
 }
 
 .list-radio-medioDePago .form-check input {
@@ -5957,16 +5960,22 @@ iframe {
 }
 
 .list-group-item-radio {
-  background-color: lightgreen;
-  width: 100%;
+  border-bottom: 1px solid var(--border);
+}
+
+.list-group-item-radio:last-child {
+  border-bottom: none;
 }
 
 .form-check-label {
   background-color: lavender;
   width: 100%;
   cursor: pointer;
-  padding: 1rem;
-  border-bottom: 1px solid blue;
+  height: 4.5rem;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
 }
+
 
 /*   END MEDIO DE PAGO PEDIDOS*/
