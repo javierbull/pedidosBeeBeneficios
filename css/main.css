@@ -5940,3 +5940,11 @@ iframe {
   text-align: center;
 }
 /* END LOADER */
+
+/* MEDIO DE PAGO PEDIDOS*/
+.content-btn-continuar-medioDePago {
+  display: flex;
+  justify-content: flex-end;
+  display: none;
+}
+/*   END MEDIO DE PAGO PEDIDOS*/
