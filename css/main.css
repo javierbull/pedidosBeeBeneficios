@@ -1275,7 +1275,7 @@ nav.main .megamenu-dropdown {
   border-radius: 0 0 .5rem .5rem;
   border: solid 1px var(--border);
   border-top: 0;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3) !important;
 }
 
 .buscador-desktop {
@@ -1386,7 +1386,7 @@ nav.main .midmenu {
 }
 
 .list-category {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   width: 13.5rem;
   padding: 1rem 1rem 1rem 0 !important;
   margin-right: 1rem;
@@ -1470,7 +1470,6 @@ nav.main .midmenu {
 /* CATEGORIES ALL */
 .tabs-all-categories {
   background-color: var(--jhon);
-  background-color: lavender;
   display: flex;
   flex-direction: column;
   padding-top: 1.5rem;
@@ -1507,7 +1506,6 @@ nav.main .midmenu {
 
 .tab-content-all-categories {
   background-color: var(--lonely);
-  background-color: pink;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-right: 2rem;
