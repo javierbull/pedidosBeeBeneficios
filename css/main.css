@@ -5996,3 +5996,33 @@ iframe {
 }
 
 /*   END MEDIO DE PAGO PEDIDOS*/
+
+/* FORMULARIO DATOS DE ENVIO PEDIDOS */
+.card-medioDePago-seleccionado {
+  background-color: var(--lonely);
+  overflow: hidden;
+  border-radius: .5rem;
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+}
+
+.card-medioDePago-seleccionado figure {
+  display: inline-block;
+  height: 2rem;
+  margin-bottom: 0;
+}
+
+.card-medioDePago-seleccionado img {
+  display: block;
+  height: 100%;
+}
+
+.card-medioDePago-seleccionado header {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* END FORMULARIO DATOS DE ENVIO PEDIDOS */
