@@ -1249,6 +1249,14 @@
     align-items: center;
     margin-top: 1rem;
   }
+
+  .cardMedioDepago-seleccionado-footer p {
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  /* END FORMULARIO DATOS DE ENVIO */
 }
 
 /* Fin cell landscape */
@@ -1921,7 +1929,7 @@
 
   .cardMedioDepago-seleccionado-footer .Copiar-texto span {
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
 
     /* END FORMULARIO DATOS DE ENVIO PEDIDOS */
