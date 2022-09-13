@@ -3846,6 +3846,7 @@ nav.main .midmenu {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .text-confirmacion-compra p span, .text-confirmacion-compra p a {
@@ -6109,7 +6110,11 @@ iframe {
 .cardMedioDepago-seleccionado-footer p {
   margin-bottom: 0;
   margin-right: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 /* END FORMULARIO DATOS DE ENVIO PEDIDOS */
+
+/* CONFIRMACION PEDIDO */
+
+/* END CONFIRMACION PEDIDO */
