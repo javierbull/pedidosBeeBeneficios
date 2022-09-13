@@ -6071,7 +6071,7 @@ iframe {
   margin-bottom: 1.5rem;
 }
 
-.card-medioDePago-seleccionado img {
+.cardMedioDepago-seleccionado-header img {
   display: inline-block;
   height: 2rem;
 }
@@ -6085,7 +6085,7 @@ iframe {
 
 .cardMedioDepago-seleccionado-body {
   /* background-color: orange; */
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 0 0;
 }
 
 .cardMedioDepago-seleccionado-body img {
