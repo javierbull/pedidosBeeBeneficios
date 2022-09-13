@@ -280,4 +280,8 @@ $(document).ready(function() {
 
   // END TABS HOVER
 
+  // BOTON COPIAR
+
+  // END BOTON COPIAR
+
 });

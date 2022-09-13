@@ -6099,4 +6099,17 @@ iframe {
 .showMobile {
   display: none !important;
 }
+
+.cardMedioDepago-seleccionado-footer .Copiar-texto {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.cardMedioDepago-seleccionado-footer p {
+  margin-bottom: 0;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 /* END FORMULARIO DATOS DE ENVIO PEDIDOS */
