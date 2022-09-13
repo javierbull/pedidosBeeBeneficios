@@ -6095,4 +6095,8 @@ iframe {
   overflow: hidden;
   border-radius: .25rem;
 }
+
+.showMobile {
+  display: none !important;
+}
 /* END FORMULARIO DATOS DE ENVIO PEDIDOS */

@@ -1893,6 +1893,15 @@
   }
   /* END SELECCION MEDIO DE PAGO */
 
+  /* FORMULARIO DATOS DE ENVIO PEDIDOS */
+  .showMobile {
+    display: block !important;
+  }
+
+  .showDesktop {
+    display: none !important;
+  }
+    /* END FORMULARIO DATOS DE ENVIO PEDIDOS */
 }
 
 /* Fin cell portrait */
