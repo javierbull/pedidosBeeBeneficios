@@ -6115,6 +6115,15 @@ iframe {
 }
 /* END FORMULARIO DATOS DE ENVIO PEDIDOS */
 
-/* CONFIRMACION PEDIDO */
+/* LOGIN PEDIDO */
+.bloque-ayuda-login-pedidos {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-/* END CONFIRMACION PEDIDO */
+.bloque-ayuda-login-pedidos p:last-child {
+  margin-bottom: 0;
+}
+/* END LOGIN PEDIDO */

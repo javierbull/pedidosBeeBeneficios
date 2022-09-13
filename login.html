@@ -26,88 +26,77 @@
 		<a href="https://api.whatsapp.com/send?phone=+51966337361" target="_blank" class="whatsapp">
 			<i class="fab fa-whatsapp"></i>
 		</a>
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav mx-auto navbar-login">
-						<li class="nav-item">
-							<a class="nav-link" data-toggle="modal" data-target=".modal-sobreBeeBeneficios">Sobre beeBeneficios</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="pasosRegistro.html" target="_blank">Pasos de registro</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="preguntasFrecuentes.html" target="_blank">Preguntas frecuentes</a>
-						</li>
-					</ul>
+		<div id="carouselExampleFade" class="carousel slide carousel-fade carousel-login" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="carousel-item-bg bg-acceso-1">
+					</div>
 				</div>
-			</nav>
-			<div class="row">
-				<div class="container-form-login">
-					<img src="img/logos/logoBeeBeneficios.svg" class="logo-form-login" alt="Logotipo Bee Beneficios">
-					<form class="form-login nav-shadow">
-						<h2 class="title-login">
-							Inicia sesión
-						</h2>
-						<p class="info-form">
-							¡Bienvenido a beeBeneficios!
-						</p>
-						<div class="form-group">
-							<label for="emailInput">Correo electrónico</label>
-							<input type="email" class="form-control" id="emailInput" aria-describedby="idHelp">
-							<div class="invalid-feedback">
-								Número incorrecto
+				<div class="carousel-item">
+					<div class="carousel-item-bg bg-acceso-2">
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-item-bg bg-acceso-3">
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-item-bg bg-acceso-4">
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-item-bg bg-acceso-5">
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="carousel-item-bg bg-acceso-6">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content-login">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="container-form-login col-lg-6">
+						<form class="form-login  nav-shadow">
+							<img src="img/logos/logoBeeBeneficios.svg" class="logo-form-login-pedidos" alt="Logotipo Bee Beneficios">
+							<h2 class="title-login mb-4">
+								¡Bienvenido a beeBeneficios!
+							</h2>
+							<div class="form-group">
+								<label for="userLoginPedido">Usuario</label>
+								<input type="text" class="form-control" id="userLoginPedido" aria-describedby="idHelp">
+								<div class="invalid-feedback">
+									Usuario incorrecto
+								</div>
 							</div>
-						</div>
-						<div class="form-group">
-							<label for="inputPassword" class="label-help">Contraseña
-								<!-- <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Recuerda que tu primera contraseña será tu código de empresa">
-									<span class="material-icons">
-										help
-									</span>
-								</button> -->
-							</label>
-							<input id="password-field-login" type="password" class="form-control" name="password">
-							<span toggle="#password-field-login" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
-							<div class="invalid-feedback">
-								Contraseña incorrecta
+							<div class="form-group">
+								<label for="inputPassword" class="label-help">Contraseña</label>
+								<input id="password-field-login" type="password" class="form-control" name="password">
+								<span toggle="#password-field-login" class="fa fa-fw fa-eye-slash field-icon toggle-password"></span>
+								<div class="invalid-feedback">
+									Contraseña incorrecta
+								</div>
 							</div>
-						</div>
 
-						<div class="wrap-btns-login">
-
-							<a href="index.html" class="btn btn-primario btn-block" data-toggle="modal" data-target=".modal-correoNoConfirmado">
-								Iniciar sesión
-							</a>
-
-							<!-- <hr> -->
-
-							<button type="button" class="btn btn-social btn-facebook d-none">
-								<img src="img/icons/facebook.png" alt="Facebook">
-								Ingresa con Facebook
-							</button>
-
-							<button type="button" class="btn btn-social btn-google d-none">
-								<img src="img/icons/google.png" alt="Google">
-								Ingresa con Google
-							</button>
-
-							<div class="link-registro">
-								¿No tienes cuenta?
-								<a href="validador.html" class="btn btn-link">
-									Regístrate aquí
+							<div class="wrap-btns-login">
+								<a href="index.html" class="btn btn-primario btn-block" data-toggle="modal" data-target=".modal-correoNoConfirmado">
+									Ingresar
 								</a>
 							</div>
 
-							<button type="button" class="btn btn-link " data-toggle="modal" data-target=".modal-contra-olvidada">
-								¿Olvidaste tu contraseña?
-							</button>
-						</div>
-
-					</form>
+							<div class="bloque-ayuda-login-pedidos">
+								<p>
+									¿Necesitas ayuda?
+								</p>
+								<p>
+									Escríbenos a: <br>
+									whatsapp: 992192643 <br>
+									correo: hola@bee.com.pe
+								</p>
+							</div>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -210,7 +199,7 @@
 						</div>
 						<div class="content-modal-bee">
 							<p>
-								Ingresa  el correo electrónico con el que te registraste para
+								Ingresa el correo electrónico con el que te registraste para
 								enviarte un enlace de recuperación
 							</p>
 
@@ -287,12 +276,12 @@
 
 					</div>
 					<div class="modal-footer modal-footer-link">
-						<a href="#" class="btn btn-primario" data-dismiss="modal" >
+						<a href="#" class="btn btn-primario" data-dismiss="modal">
 							Aceptar
 						</a>
 						<div class="link-modal-footer">
 							¿Quieres cambiar tu correo?
-							<a href="cambiarCorreo.html" class="btn btn-link" target="_blank" >
+							<a href="cambiarCorreo.html" class="btn btn-link" target="_blank">
 								Cambia tu correo aquí
 							</a>
 						</div>

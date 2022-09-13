@@ -1931,6 +1931,17 @@
   }
 
     /* END FORMULARIO DATOS DE ENVIO PEDIDOS */
+
+    /* LOGIN PEDIDOS */
+
+    .logo-form-login-pedidos {
+      display: block;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    /* END LOGIN PEDIDOS */
+
 }
 
 /* Fin cell portrait */
