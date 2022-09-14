@@ -2772,8 +2772,8 @@ nav.main .midmenu {
 /* NAVBAR BREADCRUMB FILTER */
 .navbar-breadcrumb-filter, .navbar-breadcrumb-back {
   /* background-color: yellow; */
-  /* margin-top: 3rem;
-  margin-bottom: 2rem; */
+  margin-top: 3rem;
+  /* margin-bottom: 2rem; */
   display: flex;
 }
 
