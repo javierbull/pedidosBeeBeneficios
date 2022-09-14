@@ -3460,7 +3460,7 @@ nav.main .midmenu {
 .grid-container-categorias-mobile .item:first-child {
   /* background-color: lightblue; */
   grid-column: 1 / span 2;
-  height: 10rem;
+  height: 1fr;
 }
 
 .grid-container-categorias-mobile .item {
@@ -3468,7 +3468,7 @@ nav.main .midmenu {
   overflow: hidden;
   border-radius: .5rem;
   position: relative;
-  height: 6rem;
+  height: 1fr;
 }
 
 .grid-container-categorias-mobile .item img {
@@ -3505,6 +3505,11 @@ nav.main .midmenu {
 
 .grid-container-categorias-mobile .text .category-name {
   font-size: .8rem;
+  font-weight: 600;
+}
+
+.main-category-title {
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -6126,4 +6131,6 @@ iframe {
 .bloque-ayuda-login-pedidos p:last-child {
   margin-bottom: 0;
 }
+
+
 /* END LOGIN PEDIDO */
