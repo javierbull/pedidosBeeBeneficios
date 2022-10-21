@@ -3356,10 +3356,15 @@ nav.main .midmenu {
 
 .list-group-item_categoria {
   /* background-color: pink; */
-  display: inline-block;
+  display: flex;
+  align-items: center;
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0;
+}
+
+.list-group-item_categoria span {
+  margin-right: .5rem;
 }
 
 .menu-mobile .list-group-item-title {
